@@ -70,9 +70,9 @@ class Program
         }
         //dz3
         // Tak vuglyadaye db:
-        //CREATE DATABASE OvoschiIFrukti;
+        //CREATE DATABASE dz3dot;
 
-        //USE OvoschiIFrukti;
+        //USE dz3dot;
 
         //CREATE TABLE Products(
         //    Id INT PRIMARY KEY IDENTITY,
@@ -81,7 +81,7 @@ class Program
         //    Color NVARCHAR(50) NOT NULL,
         //    Calories INT NOT NULL
         //);
-        string connectionString = "Server = (localdb)\\mssqllocaldb;Database = dz2dot;Trusted_Connection=true;";
+        string connectionString = "Server = (localdb)\\mssqllocaldb;Database = dz3dot;Trusted_Connection=true;";
 
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
